@@ -34,7 +34,7 @@ MODEL_PATH = {
         "bge-large-zh-v1.5": "BAAI/bge-large-zh-v1.5",
         "piccolo-base-zh": "sensenova/piccolo-base-zh",
         "piccolo-large-zh": "sensenova/piccolo-large-zh",
-        "text-embedding-ada-002": "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",
+        "text-embedding-ada-002": "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",
     },
     # TODO: add all supported llm models
     "llm_model": {
@@ -130,7 +130,7 @@ ONLINE_LLM_MODEL = {
     # 比如: "openai_proxy": 'http://127.0.0.1:4780'
     "gpt-3.5-turbo": {
         "api_base_url": "https://api.openai.com/v1",
-        "api_key": "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",
+        "api_key": "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",
         "openai_proxy": "your OPENAI_PROXY",
     },
     # 线上模型。请在server_config中为每个在线API设置不同的端口
